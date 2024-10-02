@@ -8,5 +8,6 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 add_subdirectory(src)
+add_executable(logger src/main.cpp)
 
 message(STATUS "Project source dir : ${PROJECT_SOURCE_DIR}")
